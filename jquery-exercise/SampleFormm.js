@@ -1,9 +1,6 @@
 /**
  * Created by vanessavargas on 7/24/2015.
  */
-/**
- * Created by vanessavargas on 7/24/2015.
- */
 
 var ParsleyPage = function()
 {
@@ -38,7 +35,7 @@ ParsleyPage.prototype.fillForm = function(data)
     this.setEmail(data.mail);
     this.selectGender(data.gender);
     this.selectHobbies(data.hobbie1);
-    //this.selectHobbies(data.hobbie2);
+    this.selectHobbies(data.hobbie2);
     this.selectHeardAboutUs(data.via);
     this.setMessage(data.message);
     this.clickValidate();
@@ -89,20 +86,20 @@ ParsleyPage.prototype.clickValidate = function()
 //    'hobbie1': 'Coding',
 //    'hobbie2': 'Reading',
 //    'via': 'Internet',
-//    'message': 'This is an exam ple of a message'
+//    'message': 'This is an example of a message'
 //};
 
-var parsleyPO = new ParsleyPage();
-parsleyPO.setFullName('Jun');
-parsleyPO.setEmail('jun@gmail.com');
-parsleyPO.selectGender('male');
-parsleyPO.selectHobbies('Coding');
-parsleyPO.selectHobbies('Reading');
-parsleyPO.selectHeardAboutUs('Internet');
-parsleyPO.setMessage('This is an example of a message');
-parsleyPO.clickValidate();
+//var parsleyPO = new ParsleyPage();
+//parsleyPO.setFullName('Jun');
+//parsleyPO.setEmail('jun@gmail.com');
+//parsleyPO.selectGender('male');
+//parsleyPO.selectHobbies('Coding');
+//parsleyPO.selectHobbies('Reading');
+//parsleyPO.selectHeardAboutUs('Internet');
+//parsleyPO.setMessage('This is an example of a message');
+//parsleyPO.clickValidate();
 
-parsleyPO.clickValidate();
+//parsleyPO.clickValidate();
 
 
 
